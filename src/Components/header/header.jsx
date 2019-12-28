@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 import './header.scss';
 import {ReactComponent as Logo} from '../../assets/crown.svg';
 import {auth} from '../../firebase/firebase';
+import CartIcon from '../cart-icon/cart-icon';
+import CartDropdown from '../cart-dropdown/cart-dropdown';
 
 const Header = ({currentUser}) => {
     return (
@@ -21,7 +23,9 @@ const Header = ({currentUser}) => {
                         :
                         <Link className='option' to='/signin'>SIGN IN</Link>
                 }
+                <CartIcon/>
             </div>
+            <CartDropdown/>
         </div>
     )
 };
