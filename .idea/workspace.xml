@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6822f3bb-6dd5-4d1d-8f89-6bccd56e4e82" name="Default" comment="x">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.jsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Components/collection-item/collection-item.jsx" afterPath="$PROJECT_DIR$/src/Components/collection-item/collection-item.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/Components/collection-item/collection-item.scss" afterPath="$PROJECT_DIR$/src/Components/collection-item/collection-item.scss" />
-      <change beforePath="$PROJECT_DIR$/src/Components/custom-button/custom-button.jsx" afterPath="$PROJECT_DIR$/src/Components/custom-button/custom-button.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/Components/custom-button/custom-button.scss" afterPath="$PROJECT_DIR$/src/Components/custom-button/custom-button.scss" />
-      <change beforePath="$PROJECT_DIR$/src/Components/preview-collection/preview-collection.jsx" afterPath="$PROJECT_DIR$/src/Components/preview-collection/preview-collection.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-types.js" afterPath="$PROJECT_DIR$/src/redux/cart/cart-types.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" afterPath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,21 +54,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop-data.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shop-data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/shop-page/shop-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="832">
               <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart-utils.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cart-dropdown.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart-utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            <state relative-caret-position="204">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -114,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/menu-item/menu-item.jsx" />
         <option value="$PROJECT_DIR$/src/pages/shop-page/shop.jsx" />
         <option value="$PROJECT_DIR$/src/Components/preview-collection/preview-collection.scss" />
         <option value="$PROJECT_DIR$/src/Components/collection-item/collection-item.scss" />
@@ -153,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/components/header/header.jsx" />
         <option value="$PROJECT_DIR$/src/components/cart-icon/cart-icon.jsx" />
         <option value="$PROJECT_DIR$/src/redux/root-reducer.js" />
-        <option value="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx" />
         <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.jsx" />
         <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.scss" />
         <option value="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" />
@@ -161,9 +166,12 @@
         <option value="$PROJECT_DIR$/src/redux/cart/cart-actions.js" />
         <option value="$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx" />
         <option value="$PROJECT_DIR$/src/components/collection-item/collection-item.jsx" />
-        <option value="$PROJECT_DIR$/src/redux/cart/cart-utils.js" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" />
         <option value="$PROJECT_DIR$/src/pages/shop-page/shop-data.js" />
+        <option value="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx" />
+        <option value="$PROJECT_DIR$/src/components/cart-item/cart-item.scss" />
+        <option value="$PROJECT_DIR$/src/components/cart-item/cart-item.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/cart/cart-utils.js" />
       </list>
     </option>
   </component>
@@ -247,21 +255,7 @@
               <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="e-commerce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="preview-collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e-commerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e-commerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e-commerce" type="b2602c69:ProjectViewProjectNode" />
@@ -332,12 +326,12 @@
       <workItem from="1577310709390" duration="1439000" />
       <workItem from="1577349743898" duration="3000000" />
       <workItem from="1577451933732" duration="8866000" />
-      <workItem from="1577526829016" duration="9541000" />
+      <workItem from="1577526829016" duration="10972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33777000" />
+    <option name="totallyTimeSpent" value="35208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -374,24 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -541,6 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,16 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -728,14 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/collection-item/collection-item.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -743,14 +702,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,10 +713,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-utils.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/shop-page/shop-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        <state relative-caret-position="832">
+          <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cart-item/cart-item.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cart-item/cart-item.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -780,10 +767,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/shop-page/shop-data.js">
+    <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding />
         </state>
       </provider>
