@@ -1,12 +1,13 @@
 import React from 'react';
 import {connect} from 'react-redux';
-
 import {Link} from 'react-router-dom';
+
 import './header.scss';
 import {ReactComponent as Logo} from '../../assets/crown.svg';
 import {auth} from '../../firebase/firebase';
 import CartIcon from '../cart-icon/cart-icon';
 import CartDropdown from '../cart-dropdown/cart-dropdown';
+import {selectCurrentUser} from "../../redux/user/user-selectors";
 
 const Header = ({currentUser}) => {
     return (
@@ -30,7 +31,7 @@ const Header = ({currentUser}) => {
     )
 };
 const mapStateToProps = (state) => ({
-    currentUser: state.user.currentUser
+    currentUser: selectCurrentUser(state)
 });
 
 export default connect(mapStateToProps)(Header);
