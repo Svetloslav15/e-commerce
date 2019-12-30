@@ -12,6 +12,7 @@ import {auth, createUserProfileDocument} from './firebase/firebase';
 import {setCurrentUser} from "./redux/user/user-actions";
 import {selectCurrentUser} from "./redux/user/user-selectors";
 import CheckoutPage from "./pages/checkout-page/checkout-page";
+import Error from './components/error/error';
 
 class App extends Component {
     unsubscribeFromAuth = null;
@@ -52,6 +53,7 @@ class App extends Component {
                            ) : (
                                <SignInAndSignUpPage/>
                            )}/>
+                    <Route exact path='/error' component={Error}/>
                 </Switch>
             </div>
         );
