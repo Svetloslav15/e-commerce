@@ -1,14 +1,13 @@
-### E-coomerce
+## E-coomerce
 This is web e-commerce app where you can buy clothes. The app accept payment with debit card.
 It is build with ReactJS and it is used only for educational purposes.
 
-## You can see demo of the app here: 
+### You can see demo of the app here: 
 http://ecommerce.novoselski.net/
 
+## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
