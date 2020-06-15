@@ -2,6 +2,8 @@
 This is web e-commerce app where you can buy clothes. The app accept payment with debit card.
 It is build with ReactJS and it is used only for educational purposes.
 
+The project is used for demo purposes
+
 ### You can see demo of the app here: 
 http://ecommerce.novoselski.net/
 
